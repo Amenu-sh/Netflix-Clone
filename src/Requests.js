@@ -1,5 +1,4 @@
 const APIKEY = process.env.REACT_APP_NETFLIX_API_KEY;
-// const APIKEY="9dd0988b3a50501f679b7a478367a855"
 
 const request = {
   fetchTrending: `/trending/all/week?api_key=${APIKEY}&language=en-us`,
@@ -13,4 +12,3 @@ const request = {
 };
 export default request;
 
-//https://api.themoviedb.org/3/movie/550?api_key=9dd0988b3a50501f679b7a478367a855&language=en-us

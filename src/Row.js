@@ -18,21 +18,6 @@ function Row({ title, fetchUrl, isLargeRow }) {
     fetchData();
   }, [fetchUrl]);
 
-// useEffect(() => {
-//   const getBlogPost = async () => {
-//     try {
-//       const res = await fetch("http://localhost:4444/getBlogPost");
-//       const getResponse = await res.json();
-//       console.log(getResponse);
-//       setBlogPosts(getResponse);
-//     } catch (error) {
-//       console.log("An error occured");
-//       console.log(error);
-//     }
-//   };
-//   getBlogPost();
-// }, []);
-
   const opts = {
     height: "390",
     width: "100%",
